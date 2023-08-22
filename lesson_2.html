@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+</head>
+<style>
+    *{
+        margin: 0;
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        width: 100%;
+        background: linear-gradient(16deg, #08f3f6, #d800e4fc 100%);
+    }
+    .login_form{
+        height: 80%;
+        width: 33%;
+        background: #fff;
+        border-radius: 20px;
+    }
+    .login_title{
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 50px;
+        font-size: 50px;
+        font-weight: 500;
+    }
+    .form{
+        margin-top: 50px;
+    }
+    .input_login{
+        height: 40px;
+        margin-left: 10%;
+        width: 80%;
+        font-size: 18px;
+        text-indent: 10px;
+        font-family: sans-serif;
+        margin-top: 30px;
+        border: 1px solid gray;
+        border-radius: 6px;
+        outline: none;
+    }
+    .btn{
+        height: 40px;
+        width: 80%;
+        margin-left: 10%;
+        background: linear-gradient(16deg, #08f3f6, #d800e4fc 100%);
+        border: none;
+        border-radius: 6px;
+        font-size: 18px;
+        margin-top: 30px;
+        cursor: pointer;
+
+    }
+    .login_option{
+        font-size: 20px;
+        color: gray;
+        font-family: sans-serif;
+        text-align: center;
+        margin-top: 25px;
+
+    }
+    .facebook_btn{
+        height: 30px;
+        width: 150px;
+        color: blue;
+        margin-left: 13%;
+        font-weight: 900;
+        border-radius: 6px;
+        border: 1px solid gray;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+    .google_btn{
+        height: 30px;
+        width: 150px;
+        color: orange;
+        margin-left: 13%;
+        font-weight: 900;
+        border-radius: 6px;
+        border: 1px solid gray;
+        margin-top: 30px;
+        cursor: pointer;
+    }
+</style>
+<body>
+    <div class="login_form">
+        <h1 class="login_title">Login Form</h1>
+        <form class="form">
+            <input class="input_login" type="email" placeholder="Enter your email">
+            <input class="input_login" type="password" placeholder="Enter your password">
+            <button class="btn">Login</button>
+        </form>
+        <p class="login_option"> or Login with</p>
+        <button class="facebook_btn">Facebook</button>
+        <button class="google_btn">Google</button>
+    </div>
+</body>
+</html>
